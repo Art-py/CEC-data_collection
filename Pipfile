@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "==0.110.2"
+uvicorn = "==0.29.0"
+SQLAlchemy = "==2.0.29"
+alembic = "==1.13.1"
+toml = "==0.10.2"
+asyncpg = "==0.29.0"
+
+[dev-packages]
+black = "==24.4.1"
+isort = "==5.13.2"
+flake8 = "==7.0.0"
+
+[requires]
+python_version = "3.11"
